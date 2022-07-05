@@ -4,11 +4,21 @@
  */
 #include "main.h"
 /**
- * _abs - a function that prints the last digit of a number
- * @ab: integar input
- * Return: absolute value of ab
+ * print_last_digit - a function that prints the last digit of a number
+ * @nld: number`s last digit result
+ * Return: value of the last digit
  */
-int _abs(int ab)
+int print_last_digit(int nld)
 {
-	return (ab * ((ab > 0) - (ab < 0)));
+	int pld;
+
+	pld = (nld % 10);
+
+	if (pld < 0)
+	{
+		pld = (-1 * pld);
+	}
+
+	_putchar(pld + '0');
+	return (pld);
 }
