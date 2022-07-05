@@ -1,6 +1,10 @@
+/*
+ * File: 1-alphabet.c
+ * Auth: Superjaks
+ */
 #include "main.h"
 /**
- * main - a function that prints the alphabet, in lowercase
+ * print_alphabet - a function that prints the alphabet, in lowercase
  *
  * Return: Always 0
  */
