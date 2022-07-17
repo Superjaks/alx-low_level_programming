@@ -1,3 +1,7 @@
+/**
+ * File: main.h
+ * Auth: Superjaks
+ */
 #ifndef HEADER_H
 #define HEADER_H
 
