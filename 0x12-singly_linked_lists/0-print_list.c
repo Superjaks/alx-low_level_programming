@@ -1,7 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stddef.h>
-
 /**
  * print_list - main entry
  * @h: pointer to linked list
