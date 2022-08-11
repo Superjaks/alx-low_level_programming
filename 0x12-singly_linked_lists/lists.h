@@ -1,7 +1,7 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef _LINKED_LISTS_H
+#define _LINKED_LISTS_H
 
-#include <tdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
 
